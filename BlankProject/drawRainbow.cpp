@@ -23,6 +23,10 @@ int main()
     double w = gw.getWidth();
     double h = gw.getHeight();
 
+    /*assume the most inner "CYAN" circle is 1/4 of the whole length, i.e. 45 degree.
+      then use triangle equation to calculate rmin, xoffset, yoffset for the most inner circle
+      calculate other circles by adding band
+    */
     double band =20;
     double rmin = w/sqrt(2);
     double xoffset = -(rmin-w/2);
