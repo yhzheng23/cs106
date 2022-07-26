@@ -1,0 +1,20 @@
+first line. // case1:line comment to the end of line
+//case2: line comment, a single line
+second line.
+third line. // case3: line comment containing block comment sign /*
+forth line. // case4: line comment containing block comment sign */
+fifth line. // case5: line comment containing line comment //
+/* case6: block comment of normal block
+content of block comment
+*/
+sixth line.
+/* case7: block comment containing line comment 
+// line comment inside blcok comment
+*/
+seventh line.
+/* case8: block comment containing block-comment-first-half-sign
+/*
+*/
+eighth line.
+// not considering comments are inside quoted strings
+// empty line after removing comments, can be removed by a second pass
